@@ -3,11 +3,11 @@ if onServer() then
       local args = {...}
       local Server = Server()
       local Player = Player(sender)
-      local script = Player:hasScript("mods/RegenerativeClaimableAsteroids/scripts/player/RegenerativeClaimableAsteroids.lua")
+      local script = Player:hasScript("data/scripts/player/RegenerativeClaimableAsteroids.lua")
       if script == true then
-        Player:removeScript("mods/RegenerativeClaimableAsteroids/scripts/player/RegenerativeClaimableAsteroids.lua")
+        Player:removeScript("data/scripts/player/RegenerativeClaimableAsteroids.lua")
       end
-      Player:addScriptOnce("mods/RegenerativeClaimableAsteroids/scripts/player/RegenerativeClaimableAsteroids.lua")
+      Player:addScriptOnce("data/scripts/player/RegenerativeClaimableAsteroids.lua")
       Player:sendChatMessage('RegenerativeClaimableAsteroids', 0, "RegenerativeClaimableAsteroids Added")
 
       return 0, "", ""

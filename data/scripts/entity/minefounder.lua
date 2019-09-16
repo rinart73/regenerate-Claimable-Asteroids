@@ -1,5 +1,5 @@
 
-local rca_foundFactory = foundFactory
+local rca_foundFactory = MineFounder.foundFactory
 function MineFounder.foundFactory(goodName, productionIndex, name)
     if anynils(goodName, productionIndex, name) then return end
 
