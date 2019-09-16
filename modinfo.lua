@@ -11,7 +11,7 @@ meta =
     name = "Regenerative Claimable Asteroids",
 
     -- Title of your mod that will be displayed to players
-    title = "Laserzwei's Regenerative Claimable Asteroids",
+    title = "Regenerative Claimable Asteroids",
 
     -- Description of your mod that will be displayed to players
     description = "This mod adds Regenerative Claimable Asteroids.",
