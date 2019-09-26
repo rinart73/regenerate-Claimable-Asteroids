@@ -4,7 +4,7 @@ meta =
     -- ID of your mod; Make sure this is unique!
     -- Will be used for identifying the mod in dependency lists
     -- Will be changed to workshop ID (ensuring uniqueness) when you upload the mod to the workshop
-    id = "RegenerativeClaimableAsteroids",
+    id = "1872924351",
 
     -- Name of your mod; You may want this to be unique, but it's not absolutely necessary.
     -- This is an additional helper attribute for you to easily identify your mod in the Mods() list
@@ -17,7 +17,7 @@ meta =
     description = "This mod adds Regenerative Claimable Asteroids.",
 
     -- Insert all authors into this list
-    authors = {"Laserzwei"},
+    authors = {"Laserzwei","Dirtyredz"},
 
     -- Version of your mod, should be in format 1.0.0 (major.minor.patch) or 1.0 (major.minor)
     -- This will be used to check for unmet dependencies or incompatibilities
